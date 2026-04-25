@@ -1,7 +1,7 @@
 # Hive
 
 <p align="center">
-  <img src="assets/hive-pixel.svg" alt="Pixelated beehive logo for Hive" width="320" />
+  <img src="assets/hive-pixel.png" alt="Pixelated beehive logo for Hive" width="320" />
 </p>
 
 Hive is a desktop app for working with CLI coding agents without living inside a
