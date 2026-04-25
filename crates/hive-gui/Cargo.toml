@@ -1,0 +1,15 @@
+[package]
+name = "hive-gui"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+gpui.workspace = true
+gpui-component.workspace = true
+gpui-component-assets.workspace = true
+hive-core = { path = "../hive-core" }
+pulldown-cmark.workspace = true
+tracing.workspace = true

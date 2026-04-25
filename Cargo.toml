@@ -1,0 +1,27 @@
+[workspace]
+members = ["crates/hive-core", "crates/hive-gui"]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license = "Apache-2.0"
+repository = "https://github.com/nolan/hive"
+
+[workspace.dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+gpui = "0.2.2"
+gpui-component = "0.5.1"
+gpui-component-assets = "0.5.1"
+git2 = "0.20"
+notify = "7.0"
+portable-pty = "0.8"
+pulldown-cmark = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+strip-ansi-escapes = "0.2"
+syntect = "5.2"
+thiserror = "2.0"
+tokio = { version = "1.0", features = ["rt-multi-thread", "sync"] }
+toml = "0.8"
+tracing = "0.1"
+uuid = { version = "1.10", features = ["serde", "v4"] }
